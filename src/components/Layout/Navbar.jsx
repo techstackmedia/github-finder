@@ -7,7 +7,7 @@ const Navbar = ({ title }) => {
   return (
     <nav className={navbar['navbar-main']}>
       <div className={navbar['navbar-container']}>
-        <div className="navbar-nav-flex">
+        <div className={navbar['navbar-nav-flex']}>
           <FaGithub className={navbar['navbar-nav-github-finder-logo']} />
           <Link to="/" className={navbar['navbar-nav-github-finder-text']}>
             {title}
