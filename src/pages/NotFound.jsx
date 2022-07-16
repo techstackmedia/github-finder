@@ -1,6 +1,6 @@
 import { FaHome } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Layout from '../components/Layout/Layout';
+import Layout from '../Layout/Layout';
 
 const NotFound = () => {
   return (
