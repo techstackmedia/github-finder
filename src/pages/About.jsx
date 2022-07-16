@@ -7,13 +7,26 @@ const About = () => {
       <p className="mb-4 text-2xl font-light">
         A React app to search GitHub profiles and see profile details. This
         project is part of the
-        <a href="https://www.udemy.com/course/modern-react-front-to-back/">
+        <a
+          href="https://www.udemy.com/course/modern-react-front-to-back/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-white"
+        >
           {' '}
           React Front To Back
         </a>{' '}
         Udemy course by
         <strong>
-          <a href="https://traversymedia.com"> Brad Traversy</a>
+          <a
+            href="https://traversymedia.com"
+            className="text-white"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {' '}
+            Brad Traversy
+          </a>
         </strong>
         .
       </p>
@@ -22,7 +35,13 @@ const About = () => {
       </p>
       <p className="text-lg text-gray-400">
         Layout By:
-        <a className="text-white" href="https://twitter.com/hassibmoddasser">
+        <a
+          className="text-white"
+          href="https://twitter.com/hassibmoddasser"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
           Hassib Moddasser
         </a>
       </p>
