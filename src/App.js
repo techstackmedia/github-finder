@@ -1,15 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Layout from './components/Layout/Layout';
+import About from './pages/About';
+import Home from './pages/Home/Home';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Layout />}>
-            {/* <main className="container mx-auto px-3 pb-12">Content</main> */}
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
